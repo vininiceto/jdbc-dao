@@ -42,7 +42,7 @@ public class DB {
 			props.load(fs);
 			return props;
 		} catch (IOException e) {
-			throw new dbException(e.getMessage());
+				throw new dbException(e.getMessage());
 		}
 	}
 
